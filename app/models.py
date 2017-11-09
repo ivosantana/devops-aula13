@@ -20,3 +20,10 @@ class Candidato(models.Model):
     endereço = models.CharField(max_lenght=100)
     telefone = models.CharField(max_lenght=12)
 
+class LocalProva(models.Model):
+    nome_escola = models.CharField(max_length=200)
+    endereço = models.CharField(max_lenght=100)
+    cidade = models.CharField(max_lenght=70)
+    estado = models.CharField(max_lenght=2)
+    
+
